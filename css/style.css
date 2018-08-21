@@ -1,0 +1,103 @@
+html, body {
+	position: relative;
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+#map-canvas {
+	position: absolute;
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+    
+h1{
+	position: relative;
+	text-align: center;
+	width: 100%;
+	z-index: 99;	
+	color: white;
+	text-shadow: 2px 2px 10px #000000;
+	margin: 0px;
+}
+
+@media (max-width: 500px)  {
+	h1 {
+		display: none;
+	}
+
+	#content {
+		width: 50%;
+	}
+}
+
+ul {
+	 list-style-type: none;
+	 width: 300px;
+	 margin: 0;
+	 padding: 0;
+	 background-color: white;
+}
+
+ul :hover {
+    background-color: #F0FFF0;
+}
+
+li {
+	border-bottom: 1px solid black;
+	padding: 4px;
+	border: 1px solid grey;
+    border-radius: 5px;
+
+
+}
+
+#content {
+	font-weight: bold;
+}
+
+.filter-box {
+ 	position: relative;
+ 	top: 10px; 
+ 	left: 10px;
+ 	z-index: 99;
+ 	width: 25%; 
+ 	height: 25px;
+ 	font-size: 16px; 
+ 	margin-bottom: 5px;
+ 	padding: 5px;
+ 	float: right;
+ 	opacity: .75;
+}
+
+.list-view {
+	position: fixed;
+	z-index: 99;
+	top: 40px;
+	left: 10px;
+	margin-top: 10px;
+	opacity: .75;
+	width: 20%;
+	min-width: 10%
+}
+
+.btn-list {
+
+}
+
+.search-list-box {
+	position: relative;
+}
+
+.container {
+	height: 100%;
+	width: 100%;
+}
