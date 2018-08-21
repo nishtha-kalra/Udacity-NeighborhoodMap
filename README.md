@@ -6,7 +6,7 @@ This is project 5 for the [Udacity](http://www.udacity.com) Full Stack Nanodegre
 The aim of the project is to develop a single page application featuring a map of your neighborhood.
 I picked a project that lists attractions in Edinburgh, OR and pulls information from FourSquare.
 
-###How to run the project?
+### How to run the project?
 * Download the project and open index.html
 
 ### Resources used
